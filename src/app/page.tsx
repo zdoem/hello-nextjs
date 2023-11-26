@@ -4,7 +4,7 @@ import Movie from "./movie";
 type Props = {};
 
 export default async function Home({}: Props) {
-  //const key =`c56984ffbd0f7b731fca6e8f295d8226`; // process.env.NEXT_PUBLIC_API_KEY;
+
   const key = process.env.NEXT_PUBLIC_API_KEY;
   const url = `https://api.themoviedb.org/3/movie/popular?api_key=${key}`;
   //https://api.themoviedb.org/3/movie/popular?api_key=

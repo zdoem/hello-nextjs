@@ -7,7 +7,7 @@ type Props = {
 
 export default async function MovieDetail({ params }: Props) {
   const { id } = params;
-  // /const api_key = `c56984ffbd0f7b731fca6e8f295d8226`; //process.env.NEXT_PUBLIC_API_KEY
+
   const api_key = process.env.NEXT_PUBLIC_API_KEY;
   const imagePath = "https://image.tmdb.org/t/p/original";
   const data = await fetch(
