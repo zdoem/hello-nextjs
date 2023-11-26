@@ -1,10 +1,37 @@
+
+# New Project
+npx create-next-app@latest hello-nextjs
+# VSCode Extensions
+-ES7
+-Prettier
+-TailwindCSS Intellisence
+-VSCode-Icons
+
+# CMD  
+tsrfc generate code for react
+
+# navbar example
+https://flowbite.com/docs/components/navbar/
+
+# Get Movie API
+https://www.themoviedb.org/settings/api
+https://api.themoviedb.org/3/movie/popular?api_key=643839bd098675576fce2ab7f6d4f1f0
+
+# reference
+- codemobiles 
+- https://github.com/codemobiles/cm-nextjs-app-router-demo/blob/main/src/app/movie/%5Bid%5D/page.tsx
+
+# for build & deployment
+- yarn build
+- yarn start
+# ####################################################################################
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
 First, run the development server:
 
-```bash
+```bash 
 npm run dev
 # or
 yarn dev
